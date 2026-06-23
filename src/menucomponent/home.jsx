@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "./header";  
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <main>
-        <h1>Welcome to My App</h1>
-        <p>This is the home page.</p>
-      </main>
+    <div  style={{ display: "flex" }}>
+      <div style={{ padding: "20px" }}>
+        <h1>you just visited the home page</h1>
+        
+      </div>
     </div>
   );
 };
