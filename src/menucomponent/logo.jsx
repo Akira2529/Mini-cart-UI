@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./header";
+import logoImage from "../assets/mini-kart.png";
 
 const Logo = () => {
   return (
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_2013_Google.png/320px-Logo_2013_Google.png"
+      src={logoImage}
       alt="Logo"
       style={{ width: "100px", height: "auto" }}
     />      

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./menu component/header";
+import Header from "./header";  
 
 const Home = () => {
   return (
